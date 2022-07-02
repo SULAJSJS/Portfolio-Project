@@ -39,10 +39,13 @@ const Contact = () => {
             </ul>
 
             <div className={`${classes.social__links}`}>
+
               <Link href="https://github.com/SULAJSJS">
                 <i className="ri-github-line"></i>
               </Link>
-
+              <Link href="#">
+                <i className="ri-linkedin-line"></i>
+              </Link>
               <Link href="https://www.instagram.com/sula_arts">
                 <i className="ri-instagram-line">
                 </i>
