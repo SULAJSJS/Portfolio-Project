@@ -26,33 +26,28 @@ const Testimonial = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Testimonials" />
-            <h4 className="mt-4 mb-5">What my client says</h4>
+            <SectionSubtitle subtitle="Отзывы" />
+            <h4 className="mt-4 mb-5">Отзывы моих клиентов</h4>
 
             <Slider {...settings}>
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/natalya.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Jhon Doe</h6>
-                    <h6>Software Engineer</h6>
+                    <h6>Надежда Викторовна</h6>
+                    <h6>Продавец одежды</h6>
                   </div>
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  Для программиста с опытом работы 7 месяцев, ты очень даже не плох! Спасибо огромное! Все круто и красиво!
                 </p>
               </div>
 
@@ -60,25 +55,22 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/GenDir.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Henry Nichols</h6>
-                    <h6>Web Developer</h6>
+                    <h6>Антон Павлович</h6>
+                    <h6>Ген. Директор компании</h6>
                   </div>
                 </div>
 
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                  Вау, результатом очень доволен!
+                  Сделали так, как договаривались, просто огромное
+                  спасибо! Буду обращатся. 
                 </p>
               </div>
 
@@ -86,24 +78,19 @@ const Testimonial = () => {
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/Mark_Zuckerberg.jpg"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Adam Smith</h6>
-                    <h6>Financial Accountant</h6>
+                    <h6>Mark Zuckerberg</h6>
+                    <h6>Meta</h6>
                   </div>
                 </div>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
+                Guy keep up the good work, you have a very good and bright future!!!
                 </p>
               </div>
             </Slider>

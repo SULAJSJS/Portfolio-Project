@@ -12,28 +12,18 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
-                <ServicesItem title="App Development" icon="ri-apps-line" />
-
-                <ServicesItem title="Web Development" icon="ri-computer-line" />
+                <ServicesItem className='Services-Items' title="Разработка Сайтов" icon="ri-computer-line" />
               </div>
-
-              <ServicesItem
-                title="Full-Stack Development"
-                icon="ri-code-s-slash-line"
-              />
             </div>
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
-            <h3 className="mb-0 mt-4">Better Design,</h3>
-            <h3 className="mb-4">Better Experience</h3>
+            <SectionSubtitle subtitle="Что я могу" />
+            <h3 className="mb-0 mt-4">Неплохой программист,</h3>
+            <h3 className="mb-4">С опытом в 8 месяцев</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
+              Я могу четко свертстать сайт, сделав его при этом  адаптивным,<br/>
+              а также в конце написать логику всего сайта.<br/>Ну а если говорить короче, то я могу сделать полную фронтальную часть сайта
             </p>
           </Col>
         </Row>

@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from "../../public/images/For Sula1.jpg";
+import img02 from "../../public/images/For Sula.jpg";
+import img03 from "../../public/images/For Sula.jpg";
+import img04 from "../../public/images/For Sula1.jpg";
 
 import classes from "../../styles/about.module.css";
 
@@ -17,15 +17,12 @@ const About = () => {
       <Container>
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <SectionSubtitle subtitle="Обо мне" />
+            <h3 className="mt-4">Я здесь</h3>
+            <h3 className="mb-4">чтобы помочь вашей крутой идее</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              Я очень люблю кодить, это то чем я буду заниматься всю свою жизнь!
+              Создавать разные красивые сайты, стилизовывать их, а также добавлять логику работы этих сайтов - это просто не передаваемые чувтсва. Особенно если у тебя получается.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -34,14 +31,14 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Problem Solving
+                  Решение проблем
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Поиск информации
                 </h6>
               </div>
 
@@ -50,25 +47,25 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Creative Idea
+                  Креативные идеи
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  High Quality
+                  Качественный результат
                 </h6>
               </div>
             </div>
 
             <div className="mt-5">
-              <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
+              <button className="primary__btn-2">
+                <Link href="#portfolio">Моё портфолио</Link>
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-e186671794.html">Скачать резюме</Link>
               </button>
             </div>
           </Col>

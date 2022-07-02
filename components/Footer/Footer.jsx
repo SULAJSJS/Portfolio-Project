@@ -7,23 +7,23 @@ import Link from "next/link";
 const NAV__LINK = [
   {
     path: "/",
-    display: "Home",
+    display: "Главная",
   },
   {
     path: "#about",
-    display: "About",
+    display: "Обо мне",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "Характеристики",
   },
   {
     path: "#portfolio",
-    display: "Portfolio",
+    display: "Портфолио",
   },
   {
     path: "#contact",
-    display: "Contact",
+    display: "Связь",
   },
 ];
 
@@ -48,7 +48,6 @@ const Footer = () => {
 
           <Col lg="6" className={`${classes.footer__top}`}>
             <div className={`${classes.footer__creator}`}>
-              <h6>Created by Muhib</h6>
             </div>
           </Col>
 
@@ -56,8 +55,7 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Muhibur Rahman. All right
-                reserved.{" "}
+                &copy; Copyright {year} - Developed by Osmonov Sultanbek.{" "}
               </p>
             </div>
           </Col>

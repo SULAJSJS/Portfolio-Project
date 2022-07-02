@@ -8,17 +8,17 @@ const Form = () => {
   return (
     <form className={`${classes.form}`} onSubmit={submitHandler}>
       <div className={`${classes.form__group}`}>
-        <input type="text" placeholder="Your Name" required />
+        <input type="text" placeholder="Ваше имя" required />
       </div>
       <div className={`${classes.form__group}`}>
-        <input type="email" placeholder="Email Address" required />
+        <input type="email" placeholder="Ваш email адресс" required />
       </div>
       <div className={`${classes.form__group}`}>
-        <textarea type="text" rows={5} placeholder="Message" required />
+        <textarea type="text" rows={5} placeholder="Сообщение" required />
       </div>
 
-      <button className="primary__btn" type="submit">
-        Send
+      <button className="primary__btn-3" type="submit">
+        Отправить
       </button>
     </form>
   );

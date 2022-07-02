@@ -7,23 +7,23 @@ import Link from "next/link";
 const NAV__LINK = [
   {
     path: "/",
-    display: "Home",
+    display: "Главная",
   },
   {
     path: "#about",
-    display: "About",
+    display: "Обо мне",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "Характеристики",
   },
   {
     path: "#portfolio",
-    display: "Portfolio",
+    display: "Портфолио",
   },
   {
     path: "#contact",
-    display: "Contact",
+    display: "Связь",
   },
 ];
 
@@ -59,7 +59,7 @@ const Header = () => {
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
             <h1>
-              <span>M</span>uhib
+              <span>С</span>ултан
             </h1>
           </div>
 
@@ -79,7 +79,7 @@ const Header = () => {
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
-                  <i className="ri-phone-line"></i> +088123456789{" "}
+                  <i className="ri-phone-line"></i> +996708792010{" "}
                 </p>
               </div>
             </div>

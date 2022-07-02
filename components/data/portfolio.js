@@ -2,7 +2,7 @@ const portfolio = [
   {
     id: "01",
     title: "Transportation Mobile App",
-    img: "/images/portfolio-01.jpg",
+    img: "/images/Portfolio.png",
     category: "Mobile App",
     keyword: ["Mobile", "App", "UI-UX"],
     liveUrl: "#",
@@ -55,8 +55,8 @@ const portfolio = [
 
   {
     id: "07",
-    title: "Portfolio Website",
-    img: "/images/portfolio-07.png",
+    title: "Cap Websait",
+    img: "/images/portfolio.png",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",
@@ -64,8 +64,8 @@ const portfolio = [
 
   {
     id: "08",
-    title: "Restaurant Website",
-    img: "/images/portfolio-08.png",
+    title: "Sneakers Website",
+    img: "/images/portfolio-1.png",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",
@@ -73,8 +73,8 @@ const portfolio = [
 
   {
     id: "09",
-    title: "Agency Website",
-    img: "/images/portfolio-09.png",
+    title: "Social Media App",
+    img: "/images/portfolio-2.png",
     category: "Web Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",

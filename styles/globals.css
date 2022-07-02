@@ -45,14 +45,34 @@ footer {
   border-top: 1px solid #171f38;
 }
 
-.primary__btn {
+.primary__btn-1 {
+  background: #171f38 !important;
+  padding: 7px 25px !important;
+  border: 1px solid #01d293 !important;
+  border-radius: 5px;
+}
+.primary__btn-2 {
+  background: #171f38 !important;
+  padding: 7px 25px !important;
+  border: 1px solid #01d293 !important;
+  border-radius: 5px;
+}
+.primary__btn-3 {
   background: #171f38 !important;
   padding: 7px 25px !important;
   border: 1px solid #01d293 !important;
   border-radius: 5px;
 }
 
-.primary__btn a {
+.primary__btn-1 a {
+  text-decoration: none;
+  color: #01d293;
+  background: transparent !important;
+}.primary__btn-2 a {
+  text-decoration: none;
+  color: #01d293;
+  background: transparent !important;
+}.primary__btn-3 a {
   text-decoration: none;
   color: #01d293;
   background: transparent !important;
