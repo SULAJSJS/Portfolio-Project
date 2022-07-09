@@ -1,13 +1,5 @@
 const portfolio = [
   {
-    id: "06",
-    title: "Shoes Websait",
-    img: "/images/port.png",
-    category: "Web Design",
-    keyword: ["Web", "Web design", "UI-UX"],
-    liveUrl: "https://github.com/SULAJSJS/Portfilio-Website",
-  },
-  {
     id: "07",
     title: "Cap Websait",
     img: "/images/portfolio.png",
