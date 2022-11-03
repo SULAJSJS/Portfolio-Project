@@ -1,7 +1,7 @@
-import React from "react";
-import classes from "../../styles/portfolio-item.module.css";
-import Image from "next/image";
-import Link from "next/link";
+import React from 'react';
+import classes from '../../styles/portfolio-item.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const PortfolioItem = (props) => {
   const { title, img, liveUrl, keyword } = props.item;
@@ -17,7 +17,7 @@ const PortfolioItem = (props) => {
       </div>
 
       <div className={`${classes.portfolio__img}`}>
-        <Image alt="portfolio-img" src={img} width="380" height="250" />
+        <Image objectFit="cover" alt="portfolio-img" src={img} width="380" height="250" />
       </div>
 
       <div className={`${classes.portfolio__live}`}>

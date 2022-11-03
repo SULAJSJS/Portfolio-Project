@@ -1,32 +1,18 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "reactstrap";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/portfolio.module.css";
-import PortfolioItem from "./PortfolioItem";
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import SectionSubtitle from './SectionSubtitle';
+import classes from '../../styles/portfolio.module.css';
+import PortfolioItem from './PortfolioItem';
 
-import portfolioData from "../data/portfolio";
+import portfolioData from '../data/portfolio';
 
 const Portfolio = () => {
-  const [filter, setFilter] = useState("Web Design");
+  const [filter, setFilter] = useState('Web Design');
   const [data, setData] = useState();
 
   useEffect(() => {
-    if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
-
-      setData(filteredData);
-    }
-
-    if (filter === "Web Design") {
-      const filteredData = portfolioData.filter(
-        (item) => item.category === filter
-      );
-
-      setData(filteredData);
-    }
-  }, [filter]);
+    setData(portfolioData);
+  }, []);
 
   const active = `${classes.tab__btn__active}`;
 
@@ -43,8 +29,7 @@ const Portfolio = () => {
             <div className={`${classes.tab__btns} text-end`}>
               <button
                 className={`secondary__btn text-white`}
-                onClick={() => setFilter("Web Design")}
-              >
+                onClick={() => setFilter('Web Design')}>
                 Web Design
               </button>
             </div>

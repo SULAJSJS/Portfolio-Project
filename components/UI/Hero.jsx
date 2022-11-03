@@ -1,10 +1,10 @@
-import React from "react";
-import SectionSubtitle from "./SectionSubtitle";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
-import Link from "next/link";
-import heroImg from "../../public/images/For Sula.jpg";
-import classes from "../../styles/hero.module.css";
+import React from 'react';
+import SectionSubtitle from './SectionSubtitle';
+import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image';
+import Link from 'next/link';
+import heroImg from '../../public/images/For Sula.jpg';
+import classes from '../../styles/hero.module.css';
 
 const Hero = () => {
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">Меня зовут Султанбек </h2>
               <h5 className="mb-4">Frontend разработчик</h5>
               <p>
-                Делаю сайты, люблю когда появляется новая проблема, <br/>
+                Делаю сайты, люблю когда появляется новая проблема, <br />
                 ведь только так можно прогрессивно развиваться!
               </p>
               <div className="mt-5">
@@ -27,7 +27,9 @@ const Hero = () => {
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-e186671794.html">Скачать Резюме</Link>
+                  <Link href="https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-e186671794.html">
+                    Скачать Резюме
+                  </Link>
                 </button>
               </div>
             </div>
@@ -60,9 +62,7 @@ const Hero = () => {
                 </span>
               </div>
 
-              <div
-                className={`${classes.hero__experience} d-flex align-items-center gap-3`}
-              >
+              <div className={`${classes.hero__experience} d-flex align-items-center gap-3`}>
                 <span>
                   <i className="ri-lightbulb-flash-line"></i>
                 </span>
