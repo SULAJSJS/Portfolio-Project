@@ -39,7 +39,9 @@
 
 .portfolio__item:hover .portfolio__live {
   margin-left: 0;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 @media only screen and (max-width: 576px) {

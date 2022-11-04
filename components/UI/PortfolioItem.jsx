@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const PortfolioItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { title, img, liveUrl, keyword, deployUrl } = props.item;
   return (
     <div className={`${classes.portfolio__item}`}>
       <div className="bg-transparent">
@@ -22,7 +22,10 @@ const PortfolioItem = (props) => {
 
       <div className={`${classes.portfolio__live}`}>
         <button className="primary__btn-1">
-          <Link href={liveUrl}>Посмотреть</Link>
+          <Link href={liveUrl}>Посмотреть код</Link>
+        </button>
+        <button className="primary__btn-1">
+          <Link href={deployUrl}>Посмотреть сайт</Link>
         </button>
       </div>
     </div>
