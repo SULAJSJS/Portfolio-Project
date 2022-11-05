@@ -55,6 +55,15 @@ const portfolio = [
     liveUrl: 'https://github.com/SULAJSJS/POKEMON_PROJECT_COMPLETED',
     deployUrl: 'https://pokemon-project-completed.vercel.app/',
   },
+  {
+    id: '07',
+    title: 'Онлайн веб-чат',
+    img: '/images/chat.png',
+    category: 'Web Design',
+    keyword: ['Web', 'Web design', 'UI-UX'],
+    liveUrl: 'https://github.com/SULAJSJS/Chat-app',
+    deployUrl: 'https://chat-withme.netlify.app/',
+  },
 ];
 
 export default portfolio;
