@@ -1,29 +1,29 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect } from 'react';
 
-import { Container } from "reactstrap";
-import classes from "./header.module.css";
-import Link from "next/link";
+import { Container } from 'reactstrap';
+import classes from './header.module.css';
+import Link from 'next/link';
 
 const NAV__LINK = [
   {
-    path: "/",
-    display: "Главная",
+    path: '/',
+    display: 'Главная',
   },
   {
-    path: "#about",
-    display: "Обо мне",
+    path: '#about',
+    display: 'Обо мне',
   },
   {
-    path: "#services",
-    display: "Характеристики",
+    path: '#services',
+    display: 'Навыки',
   },
   {
-    path: "#portfolio",
-    display: "Портфолио",
+    path: '#portfolio',
+    display: 'Портфолио',
   },
   {
-    path: "#contact",
-    display: "Связь",
+    path: '#contact',
+    display: 'Связь',
   },
 ];
 
@@ -33,10 +33,7 @@ const Header = () => {
   const menuRef = useRef(null);
 
   const headerFunc = () => {
-    if (
-      document.body.scrollTop > 80 ||
-      document.documentElement.scrollTop > 80
-    ) {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       headerRef.current.classList.add(`${classes.header__shrink}`);
     } else {
       headerRef.current.classList.remove(`${classes.header__shrink}`);
@@ -44,13 +41,12 @@ const Header = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", headerFunc);
+    window.addEventListener('scroll', headerFunc);
 
-    return () => window.removeEventListener("scroll", headerFunc);
+    return () => window.removeEventListener('scroll', headerFunc);
   }, []);
 
-  const toggleMenu = () =>
-    menuRef.current.classList.toggle(`${classes.menu__active}`);
+  const toggleMenu = () => menuRef.current.classList.toggle(`${classes.menu__active}`);
 
   return (
     <header className={`${classes.header}`} ref={headerRef}>
@@ -64,11 +60,7 @@ const Header = () => {
           </div>
 
           {/* ========= nav menu =========== */}
-          <div
-            className={`${classes.navigation}`}
-            ref={menuRef}
-            onClick={toggleMenu}
-          >
+          <div className={`${classes.navigation}`} ref={menuRef} onClick={toggleMenu}>
             <div className={`${classes.nav__menu}`}>
               {NAV__LINK.map((item, index) => (
                 <Link href={item.path} key={index}>
@@ -78,8 +70,8 @@ const Header = () => {
 
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
-                  {" "}
-                  <i className="ri-phone-line"></i> +996708792010{" "}
+                  {' '}
+                  <i className="ri-phone-line"></i> +996708792010{' '}
                 </p>
               </div>
             </div>
