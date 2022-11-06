@@ -1,6 +1,6 @@
 .services__container {
   display: flex;
-  width: 500px;
+  max-width: 500px;
 }
 
 .Services-Items {
