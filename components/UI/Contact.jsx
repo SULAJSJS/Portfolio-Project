@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Link from "next/link";
-import SectionSubtitle from "./SectionSubtitle";
-import classes from "../../styles/contact.module.css";
-import Form from "./Form";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
+import SectionSubtitle from './SectionSubtitle';
+import classes from '../../styles/contact.module.css';
+import Form from './Form';
 
 const Contact = () => {
   return (
@@ -13,9 +13,7 @@ const Contact = () => {
           <Col lg="6" md="6">
             <SectionSubtitle subtitle="Контакты" />
             <h3 className="mt-4 mb-4">Свяжись со мной</h3>
-            <p>
-              Если я вам понравился, то вы можете написать мне или же позвонить!
-            </p>
+            <p>Если я вам понравился, то вы можете написать мне или же позвонить!</p>
 
             <ul className={`${classes.contact__info__list}`}>
               <li className={`${classes.info__item}`}>
@@ -39,16 +37,14 @@ const Contact = () => {
             </ul>
 
             <div className={`${classes.social__links}`}>
-
-              <Link href="https://github.com/SULAJSJS">
+              <Link target="_blank" href="https://github.com/SULAJSJS">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
+              <Link target="_blank" href="https://www.linkedin.com/in/osmonov-sultan-a049a5240">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="https://www.instagram.com/sula_arts">
-                <i className="ri-instagram-line">
-                </i>
+              <Link target="_blank" href="https://instagram.com/sultannchik?igshid=YmMyMTA2M2Y=">
+                <i className="ri-instagram-line"></i>
               </Link>
             </div>
           </Col>

@@ -23,12 +23,17 @@ const Hero = () => {
               </p>
               <div className="mt-5">
                 <button className="primary__btn-1">
-                  <Link href="#">Найми меня</Link>
+                  <Link target="_blank" href="https://t.me/Sulaj">
+                    Найми меня
+                  </Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-e186671794.html">
-                    Скачать Резюме
+                  <Link
+                    href="https://drive.google.com/file/d/1T4n15ELTPko6LR9FAGxf0DmGjYCUsiiu/view?usp=share_link"
+                    download
+                    target="_blank">
+                    Скачать резюме
                   </Link>
                 </button>
               </div>
@@ -68,7 +73,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Опыт работы</h6>
-                  <h5 className="mb-0">8 месяцев</h5>
+                  <h5 className="mb-0">1.5 year</h5>
                 </div>
               </div>
             </div>

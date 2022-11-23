@@ -1,15 +1,5 @@
 const portfolio = [
   {
-    id: '01',
-    title: 'Сайт для заказа кепок',
-    img: '/images/portfolio.png',
-    category: 'Web Design',
-    keyword: ['Web', 'Web design', 'UI-UX'],
-    liveUrl: 'https://github.com/SULAJSJS/Cap-Shop',
-    deployUrl: 'https://cap-shop.vercel.app/',
-  },
-
-  {
     id: '02',
     title: 'Сайт кроссовок',
     img: '/images/portfolio-1.png',

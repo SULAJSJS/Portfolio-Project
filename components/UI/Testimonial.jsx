@@ -1,10 +1,10 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
-import SectionSubtitle from "./SectionSubtitle";
-import network from "../../public/images/Connected world.png";
-import Slider from "react-slick";
-import classes from "../../styles/testimonial.module.css";
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image';
+import SectionSubtitle from './SectionSubtitle';
+import network from '../../public/images/Connected world.png';
+import Slider from 'react-slick';
+import classes from '../../styles/testimonial.module.css';
 
 const Testimonial = () => {
   const settings = {
@@ -47,7 +47,8 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Для программиста с опытом работы 7 месяцев, ты очень даже не плох! Спасибо огромное! Все круто и красиво!
+                  Для программиста с опытом работы 1 год, ты очень даже не плох! Спасибо огромное!
+                  Все круто и красиво!
                 </p>
               </div>
 
@@ -68,9 +69,8 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                  Вау, результатом очень доволен!
-                  Сделали так, как договаривались, просто огромное
-                  спасибо! Буду обращатся. 
+                  Вау, результатом очень доволен! Сделали так, как договаривались, просто огромное
+                  спасибо! Буду обращатся.
                 </p>
               </div>
 
@@ -89,9 +89,7 @@ const Testimonial = () => {
                     <h6>Meta</h6>
                   </div>
                 </div>
-                <p>
-                Guy keep up the good work, you have a very good and bright future!!!
-                </p>
+                <p>Guy keep up the good work, you have a very good and bright future!!!</p>
               </div>
             </Slider>
           </Col>

@@ -2,6 +2,15 @@
   color: #01d293 !important;
 }
 
+.block:hover {
+  -moz-box-align: center;
+  justify-content: center;
+  -moz-box-flex: 1;
+  flex-grow: 1;
+  -moz-box-pack: center;
+  transition: all 1s ease 0s;
+}
+
 @media only screen and (max-width: 768px) {
   .tab__btns {
     text-align: left !important;

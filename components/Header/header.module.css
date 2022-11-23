@@ -13,6 +13,7 @@
 .logo h1 {
   font-size: 2rem;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 .logo h1 span {
@@ -52,7 +53,7 @@
 }
 
 .nav__right p::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 25%;
   left: -20px;

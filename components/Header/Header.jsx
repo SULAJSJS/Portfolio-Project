@@ -54,9 +54,11 @@ const Header = () => {
         <div className={`${classes.nav__wrapper}`}>
           {/* ======== navigation logo ======== */}
           <div className={`${classes.logo}`}>
-            <h1>
-              <span>С</span>ултан
-            </h1>
+            <Link href="/">
+              <h1>
+                <span>С</span>ултан
+              </h1>
+            </Link>
           </div>
 
           {/* ========= nav menu =========== */}

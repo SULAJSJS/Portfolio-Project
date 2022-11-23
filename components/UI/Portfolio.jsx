@@ -36,7 +36,7 @@ const Portfolio = () => {
           </Col>
 
           {data?.map((item) => (
-            <Col lg="4" md="4" sm="6" key={item.id}>
+            <Col className={classes.block} lg="4" md="4" sm="6" key={item.id}>
               <PortfolioItem item={item} />
             </Col>
           ))}
