@@ -1,29 +1,29 @@
-import React from "react";
+import React from 'react';
 
-import { Container, Row, Col } from "reactstrap";
-import classes from "./footer.module.css";
-import Link from "next/link";
+import { Container, Row, Col } from 'reactstrap';
+import classes from './footer.module.css';
+import Link from 'next/link';
 
 const NAV__LINK = [
   {
-    path: "/",
-    display: "Главная",
+    path: '/',
+    display: 'Главная',
   },
   {
-    path: "#about",
-    display: "Обо мне",
+    path: '#about',
+    display: 'Обо мне',
   },
   {
-    path: "#services",
-    display: "Характеристики",
+    path: '#services',
+    display: 'Навыки',
   },
   {
-    path: "#portfolio",
-    display: "Портфолио",
+    path: '#portfolio',
+    display: 'Портфолио',
   },
   {
-    path: "#contact",
-    display: "Связь",
+    path: '#contact',
+    display: 'Связь',
   },
 ];
 
@@ -47,16 +47,13 @@ const Footer = () => {
           </Col>
 
           <Col lg="6" className={`${classes.footer__top}`}>
-            <div className={`${classes.footer__creator}`}>
-            </div>
+            <div className={`${classes.footer__creator}`}></div>
           </Col>
 
           {/* ========= footer bottom ========= */}
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
-              <p>
-                &copy; Copyright {year} - Developed by Osmonov Sultanbek.{" "}
-              </p>
+              <p>&copy; Copyright {year} - Developed by Osmonov Sultanbek. </p>
             </div>
           </Col>
         </Row>
