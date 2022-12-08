@@ -54,6 +54,15 @@ const portfolio = [
     liveUrl: 'https://github.com/SULAJSJS/Chat-app',
     deployUrl: 'https://chat-withme.netlify.app/',
   },
+  {
+    id: '08',
+    title: 'Полноценное FullStack приложение',
+    img: '/images/mern-project.png',
+    category: 'Web Design',
+    keyword: ['Web', 'Web design', 'Backend', 'UX-UI', 'MongoDB'],
+    liveUrl: 'https://github.com/SULAJSJS/Mern-frontend-part',
+    deployUrl: 'https://mern-frontend-part.vercel.app/',
+  },
 ];
 
 export default portfolio;
