@@ -63,6 +63,15 @@ const portfolio = [
     liveUrl: 'https://github.com/SULAJSJS/Mern-frontend-part',
     deployUrl: 'https://mern-frontend-part.vercel.app/',
   },
+  {
+    id: '09',
+    title: 'Lyriks - сервис для прослушивания музыки',
+    img: '/images/lyriks.png',
+    category: 'Web Design',
+    keyword: ['Web', 'Web design', 'UX-UI', 'Vite'],
+    liveUrl: 'https://github.com/SULAJSJS/Lyriks',
+    deployUrl: 'https://lyriks-spotify20.vercel.app/',
+  },
 ];
 
 export default portfolio;
