@@ -66,7 +66,7 @@ const portfolio = [
   {
     id: '09',
     title: 'Lyriks - сервис для прослушивания музыки',
-    img: '/images/lyriks.png',
+    img: '/images/Lyriks.png',
     category: 'Web Design',
     keyword: ['Web', 'Web design', 'UX-UI', 'Vite'],
     liveUrl: 'https://github.com/SULAJSJS/Lyriks',
