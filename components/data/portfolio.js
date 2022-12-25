@@ -72,6 +72,15 @@ const portfolio = [
     liveUrl: 'https://github.com/SULAJSJS/Lyriks',
     deployUrl: 'https://lyriks-spotify20.vercel.app/',
   },
+  {
+    id: '10',
+    title: 'Сайт с аналитикой криптоволют в реальном времени',
+    img: '/images/Crypto-app.png',
+    category: 'Web Design',
+    keyword: ['Web', 'Web design', 'UX-UI', 'Vite'],
+    liveUrl: 'https://github.com/SULAJSJS/Crypto-app',
+    deployUrl: 'https://cryptobase-f0166.web.app/',
+  },
 ];
 
 export default portfolio;
