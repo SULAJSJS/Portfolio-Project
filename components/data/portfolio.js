@@ -75,7 +75,7 @@ const portfolio = [
   {
     id: '10',
     title: 'Сайт с аналитикой криптоволют в реальном времени',
-    img: '/images/Crypto-app.png',
+    img: '/images/crypto-app.png',
     category: 'Web Design',
     keyword: ['Web', 'Web design', 'UX-UI', 'Vite'],
     liveUrl: 'https://github.com/SULAJSJS/Crypto-app',
